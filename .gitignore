@@ -1,0 +1,34 @@
+"#GITIGNORE"
+# Dossiers spécifiques à Spring Boot
+/target/
+/build/
+/bin/
+
+# Fichiers spécifiques à Eclipse / STS
+.classpath
+.project
+.settings/
+
+# Fichiers de configuration spécifiques à Spring Boot
+/application*.yml
+/application*.properties
+
+# Fichiers de log
+/log/
+
+# Dossiers et fichiers de dépendances Maven
+/.mvn/
+/mvnw
+/mvnw.cmd
+*.log
+
+# Fichiers temporaires
+*.log*
+*.swp
+*.bak
+*.tmp
+
+# Fichiers de configuration système
+.DS_Store
+Thumbs.db
+
