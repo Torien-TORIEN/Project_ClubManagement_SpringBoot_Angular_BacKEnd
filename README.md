@@ -17,15 +17,23 @@ The project serves as the backend for a club management system within the univer
 1. Download the project from [link_to_project_repository].
 2. Start a local MySQL server (WAMP SERVER, XAMPP, or WORKBENCH SQL).
 3. Open this project in STS (or other IDE like Eclipse ,..)
-4. Test it using POSTMAN or other 
+4. Test it using POSTMAN or FrontEnd link below
+
 
 ## Frontend
 
 The frontend for this project is implemented in Angular. You can find the frontend code at https://github.com/Torien-TORIEN/Project_ClubManagement_SpringBoot_Angular_FrontEnd.
 
 ## Instructions
+1. Download project 
+2. Open it in IDE like STS or Eclipse ...
+3. Install the dependencies : Right click the project and Maven->Update Project...->Force Update Snapshots/Releases -> OK
+4. Launch MySQL Server (XAMP, WAMP SERVER, ...) [ Gestionclubdb automatically created by this project]
+5. Run the project: Right Click -> Run as -> Spring Boot App
+6. Use your Browser to test it (ex : http://localhost:8081/SpringMVC/servlet/users) or Postman or Launch FrontEnd
+7. Project Properties in :src/main/resources/application.properties 
 
-1. [Detailed instructions on how to run the project, including any specific configurations needed.]
+
 
 ## Dependencies
 
